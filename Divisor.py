@@ -1,5 +1,5 @@
 #Divisor generator
-"""
+
 test_number = input("Enter a number")
 
 num = int(test_number)
@@ -11,7 +11,7 @@ def divisor(n):
 
 print (divisor(num))
 
-"""
+
 
 #Fibonnaci generator
 a = int(input('Give amount: '))
