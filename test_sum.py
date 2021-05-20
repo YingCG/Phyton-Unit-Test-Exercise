@@ -1,0 +1,20 @@
+#https://realpython.com/python-testing/
+import unittest
+
+def test_sum():
+  assert sum([1,2,3]) == 6, "Should be 6"
+
+if __name__ == "__main__":
+  test_sum()
+  print("Everything passed")
+
+def test_sum2():
+    assert sum([1,2,3]) == 6, "Should be 6"
+
+def test_sum_tuple():
+    assert sum((1,2,2)) == 6, "Should be 6"
+
+if __name__ == "__main__":
+  test_sum2()
+  test_sum_tuple()
+  print("Everything passed")
